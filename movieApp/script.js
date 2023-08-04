@@ -2,6 +2,7 @@ const API_KEY = 'api_key=a68ba4f87d60f23e659ecffec1b1bdd2';
 const BASE_URL = 'https://api.themoviedb.org/3/';
 const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&'+API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
+const searchURL = BASE_URL + '/search/movie?' +API_KEY;
 
 const main = document.getElementById('main');
 
@@ -29,11 +30,11 @@ function showMovies(data) {
       />
 
       <div class="movie-info">
-        <h3>${title}</h3>
+        <h3>   ${title}</h3>
         <span class="${getColor(vote_average)}">${vote_average}</span>
       </div>
       <div class="overview">
-          <h3>Overview</h3>
+          <i class="fa-solid fa-film"></i><h3>Overview</h3>
         ${overview}
       </div>`
 
@@ -50,3 +51,14 @@ function getColor(vote){
         return 'red'
     }
 }
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const searchTerm = search.value;
+
+    if(searchTerm){
+        getMovies(searchURL+'&query=' +searchTerm)
+    }else{
+        getMovies(API_URL);
+    }
+})  
