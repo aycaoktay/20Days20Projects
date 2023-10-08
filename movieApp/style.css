@@ -13,10 +13,16 @@ body {
   margin: 0;
 }
 header {
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--secondary-color);
+}
+header .logo{
+  width: 90px;
+  height: auto;
+  margin-right: 1rem;
 }
 .search {
   background-color: transparent;
@@ -26,6 +32,7 @@ header {
   font-size: 1rem;
   color: #fff;
   font-family: inherit;
+  margin-left:auto;
 }
 .search:focus {
   outline: 0;
@@ -76,7 +83,7 @@ main {
   color: lightgreen;
 }
 .movie-info span.orange {
-  color: orange;
+  color: #ffa500;
 }
 .movie-info span.red {
   color: red;
