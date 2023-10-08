@@ -26,7 +26,7 @@ prev.addEventListener('click' , () =>{
 
 
 function update(){
-    //update active class in circle 
+    //Dairelerde aktif sınıfı güncelleme 
         circles.forEach((circle , index ) => {
             if(index < currentActive){
                 circle.classList.add('active')
@@ -36,13 +36,13 @@ function update(){
         })
 
 
-    // update the progress bar 
+    // İlerleme cubugunu güncelleme 
     var activeCircles = document.querySelectorAll('.active');
     
     progress.style.width = (activeCircles.length -1) /(circles.length -1) * 100 + '%' ;
     
 
-    // change the button enabled and disabled state 
+    // düğmenin etkin ve devre dışı durumunu değiştir
     if(currentActive===1){
         prev.disabled = true ;
     }else if(currentActive === circles.length){
