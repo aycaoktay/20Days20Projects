@@ -1,19 +1,20 @@
 # 20Days20Projects
-Bu repository, 20 gün boyunca her gün küçük çaplı projeler oluşturduğum bir seriyi içeriyor. Her proje HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
 
-## Teknik ve Genel Özellikler
+This repository contains a series where I created small-scale projects every day for 20 days. Each project was developed using HTML, CSS, and JavaScript.
 
-- Projelerin hepsi temel web teknolojileri olan <b> HTML, CSS ve JavaScript </b> kullanılarak geliştirilmiştir.
-- Projeler basit ve öğretici olması amacıyla tasarlanmıştır.
-- Her proje tek bir sayfadan oluşur ve basit bir kullanıcı arayüzüne sahiptir.
-- Her proje, farklı ekran boyutlarına uyum sağlayacak şekilde <b> (responsive) </b>tasarlanmıştır.
-- Projeler, modern web tarayıcılarında (Chrome, Firefox, Safari, Edge) sorunsuz çalışacak şekilde geliştirilmiştir.
-## 🙇🏻‍♀️GitHub IO Linkleri
-- 🔗(https://aycaoktay.github.io/20Days20Projects/movieApp/) - MovieApp
-- 🔗(https://aycaoktay.github.io/20Days20Projects/blurryLoading/) - BlurryLoading
-- 🔗(https://aycaoktay.github.io/20Days20Projects/animatedSearchWidget/) - AnimatedSearchWidget
-- 🔗(https://aycaoktay.github.io/20Days20Projects/progressSteps/) - ProgressSteps
-- 🔗(https://aycaoktay.github.io/20Days20Projects/Making%20Expanding%20Card/) -Expanding Card
-- 🔗(https://aycaoktay.github.io/20Days20Projects/rotationNavigation/) - Rotation Navigation
-- 🔗(https://aycaoktay.github.io/20Days20Projects/splitLandingPage/) - Split Landing Page
+## Technical and General Features
 
+- All projects are developed using the basic web technologies: **HTML, CSS, and JavaScript**.
+- Projects are designed to be simple and instructional.
+- Each project consists of a single page and has a simple user interface.
+- Each project is designed to be **responsive**, adapting to different screen sizes.
+- Projects are developed to work smoothly in modern web browsers (Chrome, Firefox, Safari, Edge).
+
+## 🙇🏻‍♀️GitHub IO Links
+- 🔗 [MovieApp](https://aycaoktay.github.io/20Days20Projects/movieApp/)
+- 🔗 [BlurryLoading](https://aycaoktay.github.io/20Days20Projects/blurryLoading/)
+- 🔗 [AnimatedSearchWidget](https://aycaoktay.github.io/20Days20Projects/animatedSearchWidget/)
+- 🔗 [ProgressSteps](https://aycaoktay.github.io/20Days20Projects/progressSteps/)
+- 🔗 [Expanding Card](https://aycaoktay.github.io/20Days20Projects/Making%20Expanding%20Card/)
+- 🔗 [Rotation Navigation](https://aycaoktay.github.io/20Days20Projects/rotationNavigation/)
+- 🔗 [Split Landing Page](https://aycaoktay.github.io/20Days20Projects/splitLandingPage/)
